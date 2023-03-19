@@ -1,0 +1,9 @@
+terminal command
+
+1.) npm create vite@latest ./ -- --template react
+2.) install tailwindcss with vite
+
+
+documentation
+1.) https://tailwindcss.com/docs/guides/vite
+1.) https://docs.pmnd.rs/react-three-fiber/getting-started/your-first-scene
