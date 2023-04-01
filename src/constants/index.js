@@ -23,6 +23,15 @@ import {
   jobit,
   tripguide,
   threejs,
+  Bangko_Sentral_ng_Pilipinas,
+  urvanzone,
+  legitize,
+  ubph,
+  zargon,
+  fdpf,
+  iccs,
+  cupboll,
+  Philippines_Luxembourg_Society,
 } from "../assets";
 
 export const navLinks = [
@@ -116,11 +125,34 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "IT Cyber Security and Data Analyst",
+    company_name: "Bangko Sentral ng Pilipinas",
+    icon: Bangko_Sentral_ng_Pilipinas,
+    iconBg: "#C5C6D0",
+    date: "April 2017 - Jan 2018",
+    points: [
+      "Responsible for protecting computer systems, networks, and data from cyber threats. This involves developing security protocols and procedures, conducting security audits and risk assessments, and responding to security incidents.",
+      "Responsible for collecting, organizing, and interpreting large datasets to provide valuable insights and support decision-making.",
+      "Design and implement data models and databases, develop data analytics tools and visualizations, and identify trends and patterns in data",
+      "Ensuring the security and efficiency of technology systems",
+    ],
+  },
+  {
+    title: "Web Developer",
+    company_name: "Urvanzone",
+    icon: urvanzone,
+    iconBg: "#E6DEDD",
+    date: "Jun 2017 - Mar 2018",
+    points: [
+      "Develop a car rental management system. To help them to manage their operations such as reservation management, vehicle inventory management, customer information management, and billing and invoicing.",
+    ],
+  },
+  {
+    title: "Web Developer",
+    company_name: "Legitize",
+    icon: legitize,
+    iconBg: "#C5C6D0",
+    date: "Apr 2018 - Sep 2018",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,11 +161,11 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "React Developer",
+    company_name: "UnionBank of the Philippines",
+    icon: ubph,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Dec 2018 - Jun 2019",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -143,28 +175,71 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    company_name: "Springboard Philippines",
+    icon: ubph,
+    iconBg: "#E6DEDD",
+    date: "Jul 2019 - Mar 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Create and maintain web applications and websites.",
+      "Designing user interfaces, coding, testing, debugging, and optimizing website performance.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Full Stack Developer",
+    company_name: "Zargon · Freelance",
+    icon: zargon,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Apr 2021 - Apr 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "https://sirexlangnmn.github.io/zargon/",
+      "Create and maintain web applications and websites.",
+      "Designing user interfaces, coding, testing, debugging, and optimizing website performance.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Fair Dao Protocol Finance · Freelance",
+    icon: fdpf,
+    iconBg: "#E6DEDD",
+    date: "Feb 2021 - Feb 2021",
+    points: [
+      "https://sirexlangnmn.github.io/fair.dao.protocol.finance/",
+      "Create and maintain web applications and websites.",
+      "Designing user interfaces, coding, testing, debugging, and optimizing website performance.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Immaculate Conception Cathedral School High",
+    icon: iccs,
+    iconBg: "#E6DEDD",
+    date: "Mar 2022 - Mar 2022",
+    points: [
+      "https://sirexlangnmn.github.io/iccs-edu-ph/",
+      "Create and maintain web applications and websites.",
+      "Designing user interfaces, coding, testing, debugging, and optimizing website performance.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "CupBoll",
+    icon: cupboll,
+    iconBg: "#E6DEDD",
+    date: "Mar 2022 - Mar 2022",
+    points: [
+      "http://cupbollbolao.com/",
+      "Cupboll - Revolution Of Sports Betting",
+      "Is a token created on the BEP20 network linked to a system where holders will be able to place bets within our own platform and have the possibility of making their capital multiply several times.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Philippines-Luxembourg Society",
+    icon: Philippines_Luxembourg_Society,
+    iconBg: "#E6DEDD",
+    date: "May 2022 - May 2022",
+    points: [
+      "Blog Site to showcase and monitor what is happening about scholarship program",
     ],
   },
 ];
@@ -214,6 +289,18 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
     ],
     image: carrent,
     source_code_link: "https://github.com/",
@@ -237,6 +324,132 @@ const projects = [
       },
     ],
     image: jobit,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
     source_code_link: "https://github.com/",
   },
   {

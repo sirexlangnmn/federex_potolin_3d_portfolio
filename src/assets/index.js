@@ -26,6 +26,15 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import Bangko_Sentral_ng_Pilipinas from "./company/Bangko_Sentral_ng_Pilipinas.png";
+import urvanzone from "./company/urvanzone.png";
+import legitize from "./company/legitize.png";
+import ubph from "./company/ubph.png";
+import zargon from "./company/zargon.png";
+import fdpf from "./company/fdpf.png";
+import iccs from "./company/iccs.png";
+import cupboll from "./company/cupboll.jpg";
+import Philippines_Luxembourg_Society from "./company/Philippines_Luxembourg_Society.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -60,4 +69,13 @@ export {
   carrent,
   jobit,
   tripguide,
+  Bangko_Sentral_ng_Pilipinas,
+  urvanzone,
+  legitize,
+  ubph,
+  zargon,
+  fdpf,
+  iccs,
+  cupboll,
+  Philippines_Luxembourg_Society,
 };
